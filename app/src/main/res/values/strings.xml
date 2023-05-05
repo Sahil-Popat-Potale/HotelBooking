@@ -19,6 +19,7 @@
     <string name="title">Hotel Booking</string>
     <string name="personnel">Personnel Information</string>
     <string name="room">Room Information</string>
+    <string name="finalPage">Preview Information</string>
     <string name="checkout">Please Select Check OUT Date</string>
     <string name="content">Overall a great experience. clean and big rooms. It serves vegetarian food only.</string>
     <!-- Content Description -->
