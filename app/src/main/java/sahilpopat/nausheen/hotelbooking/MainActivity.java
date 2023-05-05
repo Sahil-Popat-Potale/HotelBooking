@@ -16,7 +16,7 @@ public class MainActivity extends AppCompatActivity {
         btnbook.setOnClickListener(v -> {
             Intent i= new Intent(MainActivity.this, PersonnelInfoActivity.class);
             startActivity(i);
-            i.putExtra("info", "Single Bed Rooms");
+            i.putExtra("info", btnbook.getText().toString());
         });
     }
 }
