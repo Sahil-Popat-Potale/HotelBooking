@@ -3,6 +3,8 @@ package sahilpopat.nausheen.hotelbooking;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+import android.view.View;
+import android.widget.Button;
 
 public class PersonnelInfoActivity extends AppCompatActivity {
 
@@ -10,5 +12,12 @@ public class PersonnelInfoActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_personnel_info);
+        Button save = findViewById(R.id.submit);
+        save.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+            }
+        });
     }
 }

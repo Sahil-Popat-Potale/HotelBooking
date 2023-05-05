@@ -33,7 +33,7 @@
         android:layout_marginBottom="15dp"
         android:autofillHints=""
         android:ems="18"
-        android:hint="@string/enter"
+        android:hint="@string/email"
         android:inputType="textEmailAddress"
         android:textColorHint="#263238"
         android:textSize="20sp" />
@@ -58,7 +58,7 @@
         android:layout_below="@+id/edPass"
         android:layout_centerHorizontal="true"
         android:backgroundTint="#EF9A9A"
-        android:text="@string/submit"
+        android:text="@string/loginBtn"
         android:textColor="#795548"
         android:textSize="20sp" />
 

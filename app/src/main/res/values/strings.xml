@@ -2,13 +2,18 @@
     <string name="app_name">HotelBooking</string>
     <!-- Buttons -->
     <string name="book">Book Now</string>
-    <string name="submit">Login</string>
+    <string name="loginBtn">Login</string>
+    <string name="submit">Submit</string>
     <!-- EditText -->
-    <string name="enter">Please Enter Your email Address</string>
+    <string name="name">Please Enter Your Full Name</string>
+    <string name="email">Please Enter Your email Address</string>
     <string name="pass">Please Enter Password</string>
+    <string name="phone">Please Enter Your Phone Number</string>
+    <string name="address">Please Enter Your Address</string>
     <!-- TextView -->
     <string name="login">Login Page</string>
     <string name="title">Hotel Booking</string>
+    <string name="personnel">Personnel Information</string>
     <string name="content">Overall a great experience. clean and big rooms. It serves vegetarian food only.</string>
     <!-- Content Description -->
     <string name="single">SingleBed Room</string>

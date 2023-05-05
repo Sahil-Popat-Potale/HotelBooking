@@ -14,7 +14,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         btnbook=findViewById(R.id.button);
         btnbook.setOnClickListener(v -> {
-            Intent i= new Intent(MainActivity.this, LoginActivity.class);
+            Intent i= new Intent(MainActivity.this, PersonnelInfoActivity.class);
             startActivity(i);
             i.putExtra("info", "Single Bed Rooms");
         });
