@@ -3,6 +3,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:padding="20dp"
+    android:background="#F8F0A9"
     android:orientation="vertical"
     tools:context=".RoomInfoActivity">
 
@@ -22,39 +24,50 @@
         android:id="@+id/spinnerType"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_margin="20dp"
+        android:layout_marginTop="30dp"
         android:entries="@array/type"
         android:background="@android:drawable/btn_dropdown"
-        android:textAlignment="center"/>
+        android:textAlignment="center" />
 
     <EditText
-        android:id="@+id/Name"
+        android:id="@+id/Number"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
         android:autofillHints=""
         android:ems="20"
         android:hint="@string/noRoom"
-        android:inputType="textPersonName"
+        android:inputType="number"
         android:textColorHint="#AD1457"
         android:textSize="20sp" />
 
-    <TextView
+    <EditText
+        android:id="@+id/CheckIn"
+        android:clickable="false"
+        android:cursorVisible="false"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
-        android:text="@string/checkIn"/>
+        android:hint="@string/checkIn" />
 
-    <TextView
+    <EditText
+        android:id="@+id/CheckOut"
+        android:clickable="false"
+        android:cursorVisible="false"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
-        android:text="@string/checkout"/>
+        android:hint="@string/checkout" />
 
     <Button
+        android:id="@+id/Preview"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="30dp"
-        android:text="Preview" />
+        android:text="@string/preview" />
 
 </LinearLayout>
